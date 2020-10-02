@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.12.0-SNAPSHOT">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.InstanceAnswer">
+            <fields>
+                <field type="STRING" length="255" name="question" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="answer" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Instancequestionnaire">
+            <fields>
+                <field type="STRING" length="255" name="questionnaire_name" nullable="true" collection="false"/>
+                <relationField type="COMPOSITION" reference="com.company.model.InstanceAnswer" fetchType="EAGER" name="answers" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Question">
+            <fields>
+                <field type="STRING" length="255" name="question" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="answer" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Questionnaire">
+            <fields>
+                <field type="STRING" length="255" name="questionnaire_name" nullable="true" collection="false"/>
+                <relationField type="COMPOSITION" reference="com.company.model.Question" fetchType="EAGER" name="questions" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries>
+                <query name="listbyname" content="SELECT q.questionnaire_name&#13;&#10;FROM Questionnaire q &#13;&#10;ORDER BY q.persistenceId ASC" returnType="java.util.List">
+                    <queryParameters/>
+                </query>
+            </queries>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
