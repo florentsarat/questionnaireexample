@@ -2,6 +2,8 @@
 <applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
     <application token="questionaire" version="1.0" profile="User" homePage="viewmyquestionaires" state="ACTIVATED" layout="custompage_layoutBonita" theme="custompage_bootstrapdefaulttheme">
         <displayName>Questionnaire Manager</displayName>
+        <description>The questionnaire manager allows users to define questionnaire and update them if needed.&#13;
+You can also answer to questionnaire from this living application</description>
         <applicationPages>
             <applicationPage customPage="custompage_viewmyquestionaires" token="viewmyquestionaires"/>
         </applicationPages>

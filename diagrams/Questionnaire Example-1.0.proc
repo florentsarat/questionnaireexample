@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:actormapping="http://www.bonitasoft.org/ns/actormapping/6.0" xmlns:configuration="http://www.bonitasoft.org/ns/studio/configuration" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
-  <process:MainProcess xmi:id="__oN0cAM1Eeu93_xGjtoiLQ" name="MyDiagram" author="Florent" bonitaVersion="7.12.0" bonitaModelVersion="7.11.1-001">
-    <elements xmi:type="process:Pool" xmi:id="__oN0cQM1Eeu93_xGjtoiLQ" name="Creation">
+  <process:MainProcess xmi:id="__oN0cAM1Eeu93_xGjtoiLQ" documentation="The diagram has three lanes. One for creating the questionnaires, one for editing them and a final one for user to answer to a given questionnaire." name="Questionnaire Example" author="Florent" bonitaVersion="7.12.0" bonitaModelVersion="7.11.1-001">
+    <elements xmi:type="process:Pool" xmi:id="__oN0cQM1Eeu93_xGjtoiLQ" documentation="Questionnaire creation lane: Initiate the questionnaire objects (Questionnaire and Question). No task is needed. An instanciation form is used.&#xD;&#xA;&#xD;&#xA;This is a pretty standard usage of Bonita." name="Creation">
       <elements xmi:type="process:Lane" xmi:id="__oN0cgM1Eeu93_xGjtoiLQ" name="Create" actor="__oN0iwM1Eeu93_xGjtoiLQ">
         <elements xmi:type="process:StartEvent" xmi:id="_pJ1tcAM2Eeu93_xGjtoiLQ" name="Start1" outgoing="_pmsokAM2Eeu93_xGjtoiLQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_pJ2UgQM2Eeu93_xGjtoiLQ" name="" content="" returnTypeFixed="true"/>
@@ -76,7 +76,7 @@
         <value xmi:type="expression:Expression" xmi:id="__oN0mwM1Eeu93_xGjtoiLQ" content="" returnTypeFixed="true"/>
       </searchIndexes>
     </elements>
-    <elements xmi:type="process:Pool" xmi:id="_CqHpwAM3Eeu93_xGjtoiLQ" name="Edit questionnaire">
+    <elements xmi:type="process:Pool" xmi:id="_CqHpwAM3Eeu93_xGjtoiLQ" documentation="This lane is use to update existing questionnaires. There aren't any form. This is managed from application." name="Edit questionnaire">
       <elements xmi:type="process:StartEvent" xmi:id="_E4vdcAM3Eeu93_xGjtoiLQ" name="Start2" outgoing="_mjOPEAO7Eeu_oPrF-dH_oA">
         <dynamicLabel xmi:type="expression:Expression" xmi:id="_E4vdcgM3Eeu93_xGjtoiLQ" name="" content="" returnTypeFixed="true"/>
         <dynamicDescription xmi:type="expression:Expression" xmi:id="_E4vdcQM3Eeu93_xGjtoiLQ" name="" content="" returnTypeFixed="true"/>
@@ -153,7 +153,7 @@
         <value xmi:type="expression:Expression" xmi:id="_CqHpzwM3Eeu93_xGjtoiLQ" content="" returnTypeFixed="true"/>
       </searchIndexes>
     </elements>
-    <elements xmi:type="process:Pool" xmi:id="_AjgkQASEEeuBdPpJCdpVuA" name="Answer to questionnaire">
+    <elements xmi:type="process:Pool" xmi:id="_AjgkQASEEeuBdPpJCdpVuA" documentation="This lane is used to instanciate questionnaires so that users can answer them. A form load the questions from the definition. When the user submits the form a Instancequestionnaire object is created by a a javascript expression." name="Answer to questionnaire">
       <elements xmi:type="process:StartEvent" xmi:id="_s14JwASIEeuBdPpJCdpVuA" name="Start3" outgoing="_tKo40ASIEeuBdPpJCdpVuA">
         <dynamicLabel xmi:type="expression:Expression" xmi:id="_s14w0QSIEeuBdPpJCdpVuA" name="" content="" returnTypeFixed="true"/>
         <dynamicDescription xmi:type="expression:Expression" xmi:id="_s14w0ASIEeuBdPpJCdpVuA" name="" content="" returnTypeFixed="true"/>

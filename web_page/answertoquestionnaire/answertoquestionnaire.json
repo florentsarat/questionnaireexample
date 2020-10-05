@@ -2,7 +2,7 @@
   "modelVersion" : "2.0",
   "id" : "answertoquestionnaire",
   "name" : "answertoquestionnaire",
-  "lastUpdate" : 1601650423944,
+  "lastUpdate" : 1601900280763,
   "rows" : [
     [
       {
@@ -65,7 +65,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Select the question to answer"
+                    "value" : "Select the questionnaire to answer"
                   },
                   "labelPosition" : {
                     "type" : "constant",

@@ -1,0 +1,10 @@
+== Introduction
+
+The goal is this document is to illustrate how to manage master data in Bonita. 
+
+We are going to create a Bonita Project that allows user to define questionnaires (both questions and their expected answers).
+
+The user will also be able to modify the questionnaires as well as answer to a given questionnaire.
+
+
+== Implementation order

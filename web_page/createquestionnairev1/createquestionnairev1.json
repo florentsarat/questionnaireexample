@@ -2,7 +2,7 @@
   "modelVersion" : "2.0",
   "id" : "createquestionnairev1",
   "name" : "createquestionnairev1",
-  "lastUpdate" : 1601629297869,
+  "lastUpdate" : 1601900320956,
   "rows" : [
     [
       {
@@ -48,7 +48,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Monquestionnaire"
+                    "value" : "Create a new questionnaire"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -76,7 +76,8 @@
                 },
                 "propertyValues" : {
                   "repeatedCollection" : {
-                    "type" : "variable"
+                    "type" : "variable",
+                    "value" : ""
                   },
                   "hidden" : {
                     "type" : "constant",
@@ -134,7 +135,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Questionnaire_name"
+                          "value" : "Questionnaire name"
                         },
                         "type" : {
                           "type" : "constant",
@@ -151,6 +152,24 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "af4e586f-3735-43b5-bf68-c5b6e9e037a9",
@@ -319,7 +338,7 @@
                               },
                               "text" : {
                                 "type" : "interpolation",
-                                "value" : "Reponse"
+                                "value" : "Answers"
                               },
                               "alignment" : {
                                 "type" : "constant",

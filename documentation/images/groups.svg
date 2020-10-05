@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="333px" preserveAspectRatio="none" style="width:2438px;height:333px;" version="1.1" viewBox="0 0 2438 333" width="2438px" zoomAndPan="magnify"><defs><filter height="300%" id="f1mcs5yif6m00t" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f1mcs5yif6m00t)" height="64.8281" style="stroke: #A80036; stroke-width: 1.5;" width="247" x="629" y="8"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="31" x="737" y="22.457">acme</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="630" x2="875" y1="27.0938" y2="27.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="28" x="635" y="41.4746">Acme</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="235" x="635" y="54.0527">This group represents the acme department of the</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="92" x="635" y="66.6309">ACME organization</text><rect fill="#FEFECE" filter="url(#f1mcs5yif6m00t)" height="64.8281" style="stroke: #A80036; stroke-width: 1.5;" width="213" x="6" y="133"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="11" x="107" y="147.457">hr</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="218" y1="152.0938" y2="152.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="85" x="12" y="166.4746">Human Resources</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="201" x="12" y="179.0527">This group represents the human resources</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="179" x="12" y="191.6309">department of the ACME organization</text><rect fill="#FEFECE" filter="url(#f1mcs5yif6m00t)" height="64.8281" style="stroke: #A80036; stroke-width: 1.5;" width="238" x="254.5" y="133"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="40" x="353.5" y="147.457">finance</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="255.5" x2="491.5" y1="152.0938" y2="152.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="39" x="260.5" y="166.4746">Finance</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="226" x="260.5" y="179.0527">This group represents the finance department of</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="110" x="260.5" y="191.6309">the ACME organization</text><rect fill="#FEFECE" filter="url(#f1mcs5yif6m00t)" height="64.8281" style="stroke: #A80036; stroke-width: 1.5;" width="194" x="527.5" y="133"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="6" x="621.5" y="147.457">it</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="528.5" x2="720.5" y1="152.0938" y2="152.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="61" x="533.5" y="166.4746">Infrastructure</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="182" x="533.5" y="179.0527">This group represents the infrastructure</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="179" x="533.5" y="191.6309">department of the ACME organization</text><rect fill="#FEFECE" filter="url(#f1mcs5yif6m00t)" height="64.8281" style="stroke: #A80036; stroke-width: 1.5;" width="248" x="756.5" y="133"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="853" y="147.457">marketing</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="757.5" x2="1003.5" y1="152.0938" y2="152.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="46" x="762.5" y="166.4746">Marketing</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="236" x="762.5" y="179.0527">This group represents the marketing department of</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="110" x="762.5" y="191.6309">the ACME organization</text><rect fill="#FEFECE" filter="url(#f1mcs5yif6m00t)" height="64.8281" style="stroke: #A80036; stroke-width: 1.5;" width="253" x="1040" y="133"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="58" x="1137.5" y="147.457">production</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="1041" x2="1292" y1="152.0938" y2="152.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="52" x="1046" y="166.4746">Production</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="241" x="1046" y="179.0527">This group represents the production department of</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="110" x="1046" y="191.6309">the ACME organization</text><rect fill="#FEFECE" filter="url(#f1mcs5yif6m00t)" height="64.8281" style="stroke: #A80036; stroke-width: 1.5;" width="248" x="763.5" y="258"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="11" x="882" y="272.457">rd</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="764.5" x2="1010.5" y1="277.0938" y2="277.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="120" x="769.5" y="291.4746">Research &amp; Development</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="236" x="769.5" y="304.0527">This group represents the research &amp; development</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="179" x="769.5" y="316.6309">department of the ACME organization</text><rect fill="#FEFECE" filter="url(#f1mcs5yif6m00t)" height="64.8281" style="stroke: #A80036; stroke-width: 1.5;" width="239" x="1047" y="258"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="1143.5" y="272.457">services</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="1048" x2="1285" y1="277.0938" y2="277.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="40" x="1053" y="291.4746">Services</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="227" x="1053" y="304.0527">This group represents the services department of</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="110" x="1053" y="316.6309">the ACME organization</text><rect fill="#FEFECE" filter="url(#f1mcs5yif6m00t)" height="64.8281" style="stroke: #A80036; stroke-width: 1.5;" width="243" x="1607" y="133"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="31" x="1713" y="147.457">sales</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="1608" x2="1849" y1="152.0938" y2="152.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="26" x="1613" y="166.4746">Sales</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="231" x="1613" y="179.0527">This group represents the sales department of the</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="92" x="1613" y="191.6309">ACME organization</text><rect fill="#FEFECE" filter="url(#f1mcs5yif6m00t)" height="64.8281" style="stroke: #A80036; stroke-width: 1.5;" width="253" x="1321" y="258"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="39" x="1428" y="272.457">europe</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="1322" x2="1573" y1="277.0938" y2="277.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="34" x="1327" y="291.4746">Europe</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="241" x="1327" y="304.0527">This group represents the europe department of the</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="92" x="1327" y="316.6309">ACME organization</text><rect fill="#FEFECE" filter="url(#f1mcs5yif6m00t)" height="64.8281" style="stroke: #A80036; stroke-width: 1.5;" width="239" x="1609" y="258"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="1716.5" y="272.457">asia</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="1610" x2="1847" y1="277.0938" y2="277.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="20" x="1615" y="291.4746">Asia</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="227" x="1615" y="304.0527">This group represents the asia department of the</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="92" x="1615" y="316.6309">ACME organization</text><rect fill="#FEFECE" filter="url(#f1mcs5yif6m00t)" height="64.8281" style="stroke: #A80036; stroke-width: 1.5;" width="253" x="1883" y="258"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="75" x="1972" y="272.457">latin_america</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="1884" x2="2135" y1="277.0938" y2="277.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="67" x="1889" y="291.4746">Latin America</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="241" x="1889" y="304.0527">This group represents the latin america department</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="122" x="1889" y="316.6309">of the ACME organization</text><rect fill="#FEFECE" filter="url(#f1mcs5yif6m00t)" height="64.8281" style="stroke: #A80036; stroke-width: 1.5;" width="256" x="2171.5" y="258"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="80" x="2259.5" y="272.457">north_america</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="2172.5" x2="2426.5" y1="277.0938" y2="277.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="68" x="2177.5" y="291.4746">North America</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="244" x="2177.5" y="304.0527">This group represents the north america department</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="122" x="2177.5" y="316.6309">of the ACME organization</text><!--MD5=[99f02833066fe632b868747e63f9d989]
+link acme to hr--><path d="M628.98,60.792 C524.136,77.791 369.912,104.266 236.5,133 C230.854,134.216 225.077,135.51 219.252,136.853 " fill="none" id="acme-hr" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[028a7398f2158275f2a717d4c2827d2f]
+link acme to finance--><path d="M655.39,73.016 C598.696,91.415 527.394,114.556 470.686,132.959 " fill="none" id="acme-finance" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0235cecfddd5130fc9d6fe8ca2180b53]
+link acme to it--><path d="M719.537,73.176 C700.426,91.54 676.443,114.586 657.351,132.932 " fill="none" id="acme-it" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6e04b23af5faef078da2229edbe01694]
+link acme to marketing--><path d="M785.463,73.176 C804.574,91.54 828.557,114.586 847.649,132.932 " fill="none" id="acme-marketing" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7f1c4e4b75a28d98542fe1ca86371198]
+link acme to production--><path d="M858.578,73.016 C920.508,91.415 998.394,114.556 1060.34,132.959 " fill="none" id="acme-production" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3343df182890fd4625e25ef677bd8af6]
+link acme to sales--><path d="M876.111,57.078 C1064.11,80.77 1419.72,125.586 1606.66,149.145 " fill="none" id="acme-sales" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a85c2c9483118b42d485a3e70534e913]
+link production to rd--><path d="M1095.01,198.016 C1053.36,216.38 1000.992,239.4661 959.286,257.8525 " fill="none" id="production-rd" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[919e1fe582c0bb3554286b3f260d6141]
+link production to services--><path d="M1166.5,198.176 C1166.5,216.54 1166.5,239.5857 1166.5,257.9318 " fill="none" id="production-services" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d68a31dbccd6e93c344ea3ac4d84600b]
+link sales to europe--><path d="M1656.5,198.016 C1614.55,216.38 1561.81,239.4661 1519.8,257.8525 " fill="none" id="sales-europe" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[70dfbc0157a19144e054eb6f0928bc30]
+link sales to asia--><path d="M1728.5,198.176 C1728.5,216.54 1728.5,239.5857 1728.5,257.9318 " fill="none" id="sales-asia" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[28eda81cdc49164ec1215ffe5ffef58f]
+link sales to latin_america--><path d="M1800.5,198.016 C1842.45,216.38 1895.19,239.4661 1937.2,257.8525 " fill="none" id="sales-latin_america" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e58d45514c102606c6fe5737c897062f]
+link sales to north_america--><path d="M1850.33,192.714 C1935.3,211.001 2051.31,235.9763 2153.5,258 C2159.33,259.2565 2165.29,260.5415 2171.31,261.8398 " fill="none" id="sales-north_america" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[97dc236c9aab34fdb2db2d78bdd13f43]
+@startuml
+
+object "acme" as acme {
+    Acme
+    This group represents the acme department of the
+    ACME organization
+}
+
+object "hr" as hr {
+    Human Resources
+    This group represents the human resources
+    department of the ACME organization
+}
+
+object "finance" as finance {
+    Finance
+    This group represents the finance department of
+    the ACME organization
+}
+
+object "it" as it {
+    Infrastructure
+    This group represents the infrastructure
+    department of the ACME organization
+}
+
+object "marketing" as marketing {
+    Marketing
+    This group represents the marketing department of
+    the ACME organization
+}
+
+object "production" as production {
+    Production
+    This group represents the production department of
+    the ACME organization
+}
+
+object "rd" as rd {
+    Research & Development
+    This group represents the research & development
+    department of the ACME organization
+}
+
+object "services" as services {
+    Services
+    This group represents the services department of
+    the ACME organization
+}
+
+object "sales" as sales {
+    Sales
+    This group represents the sales department of the
+    ACME organization
+}
+
+object "europe" as europe {
+    Europe
+    This group represents the europe department of the
+    ACME organization
+}
+
+object "asia" as asia {
+    Asia
+    This group represents the asia department of the
+    ACME organization
+}
+
+object "latin_america" as latin_america {
+    Latin America
+    This group represents the latin america department
+    of the ACME organization
+}
+
+object "north_america" as north_america {
+    North America
+    This group represents the north america department
+    of the ACME organization
+}
+
+acme - - hr
+acme - - finance
+acme - - it
+acme - - marketing
+acme - - production
+acme - - sales
+production - - rd
+production - - services
+sales - - europe
+sales - - asia
+sales - - latin_america
+sales - - north_america
+@enduml
+
+PlantUML version 1.2019.11(Sun Sep 22 12:02:15 CEST 2019)
+(EPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_251-b08
+Operating System: Windows 10
+Default Encoding: UTF8
+Language: fr
+Country: FR
+--></g></svg>

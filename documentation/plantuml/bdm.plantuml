@@ -1,0 +1,40 @@
+@startuml
+
+package com.company.model {
+
+    note top of InstanceAnswer : Instance of an answer (question and its answer)
+    class InstanceAnswer {
+        +persistenceId : Long
+        +question : String
+        +answer : String
+    }
+
+    note top of Instancequestionnaire : Questionnaire filled out by a user
+    class Instancequestionnaire {
+        +persistenceId : Long
+        +questionnaire_name : String
+    }
+
+    note top of Question : A question definition object: a question and a list of answers
+    class Question {
+        +persistenceId : Long
+        +question : String
+        +answer : List<String>
+    }
+
+    note top of Questionnaire : A questionnaire definition: a name and a list of questions
+    class Questionnaire {
+        +persistenceId : Long
+        +questionnaire_name : String
+    }
+
+}
+
+Instancequestionnaire *-- "*" InstanceAnswer : answers
+Questionnaire *-- "*" Question : questions
+
+legend top left
+&#9830; Composition relation  &#9826; Aggregation relation  &#42; Multiple relation
+endlegend
+
+@enduml
