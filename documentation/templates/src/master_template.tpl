@@ -39,14 +39,6 @@ if (project.businessDataModel) {
 }
 
 
-if (project.applicationPages) {
-	section 2, messages.getString('applicationPages')
-	newLine()
-	project.applicationPages.each { Page page ->
-		layout 'page/pageApplication_template.tpl', page:page, messages:messages, level:3
-	}
-}
-
 if (project.diagrams) {
 	section 2, messages.getString('diagrams')
 	newLine()
@@ -73,6 +65,13 @@ if(project.applicationDescriptors) {
     }
 }
 
+if (project.applicationPages) {
+	section 2, messages.getString('applicationPages')
+	newLine()
+	project.applicationPages.each { Page page ->
+		layout 'page/pageApplication_template.tpl', page:page, messages:messages, level:3
+	}
+}
 
 
 

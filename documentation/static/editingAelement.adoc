@@ -1,0 +1,99 @@
+The pool has a questionnaire object as business data. 
+
+image::data/data.png[align="center"]
+
+
+A contract is defined based on that object. In addition the "persistenceId_string" element is added. It will allow us to find the questionnaire to edit. 
+
+To do that, the following rule is to define the question (from the data tab of the pool) is created.
+
+
+image::data/contract.png[align="center"]
+
+The default value rule contains the following content:
+
+[source,groovy]
+----
+
+def questionnaireVar = questionnaireDAO.findByPersistenceId(editquestionnaireInput.persistenceId_string.toLong()) // <1>
+
+
+// <2> 
+questionnaireVar.questionnaire_name = editquestionnaireInput?.questionnaire_name 
+
+questionnaireVar.questions = {
+	def questionList = []
+	//For each item collected in multiple input
+	editquestionnaireInput?.questions.each{
+		//Add a new composed Question instance
+		questionList.add({ currentQuestionInput ->
+			def questionVar = new com.company.model.Question()
+			questionVar.question = currentQuestionInput.question
+			questionVar.answer = currentQuestionInput.answer
+			return questionVar
+		}(it))
+	}
+	return questionList}()
+	
+return questionnaireVar
+----
+<1> Get the questionnaire object from the id provided by the contract (thru the Edit questionnaire form)
+<2> Update the questionnaire object with the new values from the contract (i.e from the form)
+
+
+On our application page, you can view the different questionnaires and their content (see  chapters 6 & 7). A modify button has been added on each questionnaire row to open a modal to perform the questionnaire editing:
+
+image::forms/editbutton.png[align="center"]
+
+image::forms/Editaform.png[align="center"]
+
+Let's take a peek at this modal implementation.
+
+The questions are loaded with the data management tool (which creates automatically the interface and the corresponding calls). If you don't have this feature yet, you can load the questionnaires with an External API call to the BDM.
+
+image::uidsetup/questionnaireVar.png[align="center"]
+
+A table lists all the questionnaires found. The "questionnaire_selected" variable store the selected questionnaire. 
+
+image::uidsetup/displayquestionnaire.png[align="center"]
+
+ 
+The modal displays the element from the selected question:
+
+image::uidsetup/UIDModal.png[align="center"]
+
+Fields and collections are mapped to the "questionnaire_selected" variable.
+
+image::uidsetup/collections.png[align="center"]
+
+The "Add Question" and "Add Answer" buttons have the "Add to collection" action and mapped to respectively "questionnaire_selected.questions" and "$item.answer"
+
+ 
+The Save button is a basic post on the current process (Edit questionnaire) with a payload constructed:
+
+image::uidsetup/savebutton.png[width=50%, align="center"]
+ 
+startmodifyprocessURL
+[source,javascript]
+----
+ if ($data.processModify  && $data.processModify.length > 0) {
+  return "/bonita/API/bpm/process/" +
+    $data.processModify[0].id +
+    "/instantiation";
+} else {
+  return null;
+} 
+
+----
+ 
+
+modifyPayload
+[source,javascript]
+----
+return {
+    editquestionnaireInput: $data.questionnaire_selected
+}
+
+----
+ 
+

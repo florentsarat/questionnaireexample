@@ -24,10 +24,23 @@ write "image::processes/$process.name-${process.version}.png[]"
 
 if (process.name== "Edit questionnaire") {
 	
-	write 'image::forms/Editaform.png[]'
+	
+	write 'include::documentation/static/editingAelement.adoc[]'
 	newLine()
+	
 	2.times { newLine() }
 }
+
+
+if (process.name== "Answer to questionnaire") {
+	
+	
+	write 'include::documentation/static/answertoaquestion.adoc[]'
+	newLine()
+	
+	2.times { newLine() }
+}
+
 
 /*
 if(process.actors) {
@@ -72,11 +85,14 @@ if(process.formMapping && process.formMapping.type != 'NONE') {
    layout 'process/form_mapping_template.tpl', mapping:process.formMapping, level:5, messages:messages
 }
 
+/*
 if(process.contract?.inputs) {
     section 4, "icon:list-alt[] ${messages.getString('contractInputs')}"
     newLine()
     layout 'process/contract_inputs_template.tpl', contract:process.contract, messages:messages
 }
+*/
+
 
 if(process.contract?.constraints) {
     section 4, "icon:check-circle[] ${messages.getString('contractConstraints')}"
@@ -96,11 +112,13 @@ if(process.connectorsOut) {
     layout 'process/connectors_template.tpl', connectors:process.connectorsOut, messages:messages
 }
 
+/*
 if(process.lanes) {
     process.lanes.each { Lane lane ->
         layout 'process/lane_template.tpl', lane:lane, messages:messages
     }
 }
+*/
 
 /*
 if(process.flowElements) {

@@ -10,7 +10,7 @@ link production to services--><path d="M1166.5,198.176 C1166.5,216.54 1166.5,239
 link sales to europe--><path d="M1656.5,198.016 C1614.55,216.38 1561.81,239.4661 1519.8,257.8525 " fill="none" id="sales-europe" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[70dfbc0157a19144e054eb6f0928bc30]
 link sales to asia--><path d="M1728.5,198.176 C1728.5,216.54 1728.5,239.5857 1728.5,257.9318 " fill="none" id="sales-asia" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[28eda81cdc49164ec1215ffe5ffef58f]
 link sales to latin_america--><path d="M1800.5,198.016 C1842.45,216.38 1895.19,239.4661 1937.2,257.8525 " fill="none" id="sales-latin_america" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e58d45514c102606c6fe5737c897062f]
-link sales to north_america--><path d="M1850.33,192.714 C1935.3,211.001 2051.31,235.9763 2153.5,258 C2159.33,259.2565 2165.29,260.5415 2171.31,261.8398 " fill="none" id="sales-north_america" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[97dc236c9aab34fdb2db2d78bdd13f43]
+link sales to north_america--><path d="M1850.33,192.714 C1935.3,211.001 2051.31,235.9763 2153.5,258 C2159.33,259.2565 2165.29,260.5415 2171.31,261.8398 " fill="none" id="sales-north_america" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[322d6e64e19d3084d9ffe3d4affeaf22]
 @startuml
 
 object "acme" as acme {
@@ -109,7 +109,7 @@ PlantUML version 1.2019.11(Sun Sep 22 12:02:15 CEST 2019)
 (EPL source distribution)
 Java Runtime: Java(TM) SE Runtime Environment
 JVM: Java HotSpot(TM) 64-Bit Server VM
-Java Version: 1.8.0_251-b08
+Java Version: 1.8.0_231-b11
 Operating System: Windows 10
 Default Encoding: UTF8
 Language: fr

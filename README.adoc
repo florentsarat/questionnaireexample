@@ -76,19 +76,11 @@ A questionnaire definition: a name and a list of questions
 |[[Questionnaire.questions]]&#x25c6; questions         |List<<<Question>>>|List of questions and answers that are composing the questionnaire
 |===
 
-== Application pages
-
-=== [[_64a37650-9471-3dc0-abca-44a4b3a4da9b]]image:icons/page.png[] viewmyquestionaires
-
-Page generated with Bonita UI designer
-
-image::forms/homenotselected.png[]
-image::forms/livingapphome.png[]
 == Diagrams
 
 === Questionnaire Example (1.0)
 
-The diagram has three lanes. One for creating the questionnaires, one for editing them and a final one for user to answer to a given questionnaire.
+The diagram has three lanes. One for creating the questionnaires, one for editing them, and a final one for user to answer to a given questionnaire.
 
 image::diagrams/Questionnaire Example-1.0.png[]
 
@@ -96,7 +88,7 @@ image::diagrams/Questionnaire Example-1.0.png[]
 
 === image:icons/Pool.png[title="Process"] [[_bc9f41d5-577f-31cb-9bf6-bb4a000dcc56]]Creation (1.0)
 
-Questionnaire creation lane: Initiate the questionnaire objects (Questionnaire and Question). No task is needed. An instanciation form is used.
+Questionnaire creation lane: Initiate the questionnaire objects (Questionnaire and Question). No task is needed. An instantiation form is used.
 
 This is a pretty standard usage of Bonita.
 
@@ -113,63 +105,23 @@ image::forms/createform.png[]
 
 
 
-==== icon:list-alt[] Contract inputs
-
-[verse]
-{
-    monquestionnaireInput ([teal]_MonquestionnaireInput_)
-}
-
-[verse]
-[teal]#MonquestionnaireInput# {
-    questionnaire_name ([olive]_Text_),
-    questions ([teal]_Questions_, _multiple_)
-}
-
-[verse]
-[teal]#Questions# {
-    question ([olive]_Text_),
-    answer ([olive]_Text_, _multiple_)
-}
-
-==== image:icons/Lane.png[title="Lane"] Create (<<_ce00960d-4216-338c-9f2a-d8e7aefb2c50,icon:user[title="Actor"] Employee actor>>)
-
-_No description available_
-
 === image:icons/Pool.png[title="Process"] [[_5d53af04-7484-3a9c-afca-526917d7e51a]]Edit questionnaire (1.0)
 
-This lane is use to update existing questionnaires. There aren't any form. This is managed from application.
+This lane is used to update existing questionnaires. There aren't any forms. This is managed from the application page.
 
 image::processes/Edit questionnaire-1.0.png[]
 
-image::forms/Editaform.png[]
+include::documentation/static/editingAelement.adoc[]
 
-
-==== icon:list-alt[] Contract inputs
-
-[verse]
-{
-    editquestionnaireInput ([teal]_EditquestionnaireInput_)
-}
-
-[verse]
-[teal]#EditquestionnaireInput# {
-    questionnaire_name ([olive]_Text_),
-    questions ([teal]_Questions_, _multiple_),
-    persistenceId_string ([olive]_Text_)
-}
-
-[verse]
-[teal]#Questions# {
-    question ([olive]_Text_),
-    answer ([olive]_Text_, _multiple_)
-}
 
 === image:icons/Pool.png[title="Process"] [[_a70dc3a6-0046-31d6-8ac1-dcf79c3123a3]]Answer to questionnaire (1.0)
 
-This lane is used to instanciate questionnaires so that users can answer them. A form load the questions from the definition. When the user submits the form a Instancequestionnaire object is created by a a javascript expression.
+This lane is used to instantiate questionnaires so that users can answer them. A form loads the questions from the definition. When the user submits the form a Instancequestionnaire object is created by a javascript expression.
 
 image::processes/Answer to questionnaire-1.0.png[]
+
+include::documentation/static/answertoaquestion.adoc[]
+
 
 ==== Instantiation form
 
@@ -182,25 +134,6 @@ Page generated with Bonita UI designer
 image::forms/answerformselect.png[]
 image::forms/answerform.png[]
 
-
-==== icon:list-alt[] Contract inputs
-
-[verse]
-{
-    instancequestionnaire ([teal]_Instancequestionnaire_)
-}
-
-[verse]
-[teal]#Instancequestionnaire# {
-    questionnaire_name ([olive]_Text_),
-    answers ([teal]_Answers_, _multiple_)
-}
-
-[verse]
-[teal]#Answers# {
-    question ([olive]_Text_),
-    answer ([olive]_Text_)
-}
 
 == Applications
 
@@ -232,3 +165,11 @@ Home page:: <<_64a37650-9471-3dc0-abca-44a4b3a4da9b,viewmyquestionaires>>
 |<<_64a37650-9471-3dc0-abca-44a4b3a4da9b,viewmyquestionaires>>
 |===
 
+== Application pages
+
+=== [[_64a37650-9471-3dc0-abca-44a4b3a4da9b]]image:icons/page.png[] viewmyquestionaires
+
+Page generated with Bonita UI designer
+
+image::forms/homenotselected.png[]
+image::forms/livingapphome.png[]
